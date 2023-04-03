@@ -234,7 +234,7 @@ try {
                         else {
                             $install = $false
                             if ($unPublishOldVersion) {
-                                $oldAppVersion = $navAppInfoFromDb.ExtensionDataVersion
+                                $oldAppVersion = $navAppInfoFromDb.Version
                             }
                         }
                     }
